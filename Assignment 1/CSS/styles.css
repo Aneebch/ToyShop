@@ -1,0 +1,361 @@
+/* CSS File - styles.css */
+
+/* sets text size of heading which is just below the navigation bar */
+h3{
+	font-size:30px;
+}
+/* set color for text in navigation bar and footer */
+a{
+	text-decoration:none;
+	color:#006600;
+}
+/* set paragraph format*/
+p{
+	font-size:16px;
+	text-align: justify;
+}
+
+
+/*CSS for Company Logo */
+/* align company logo at the center in top section*/
+.companylogo {
+	text-align: center;
+}
+/* allocate image height and width of company logo */
+.companylogo>img {
+	height:25%;
+	width:25%;
+	min-height: 40px;
+	min-width: 130px;
+}
+
+/* set margin after navigation bar */
+.space{
+	margin-top: 40px;
+	margin-bottom:100px;
+}
+
+
+/* formats the font and set the body background color */
+body {
+	background:#f4f4f4;
+	line-height: 1;
+	font-family: "Times New Roman", "arial", courier, fantasy;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+/*CSS for listed view of toy groups */
+/* align body text */
+.body {
+	text-align:center;
+}
+/* for list view of toys in secondary page.  */
+.body ul {
+	list-style:none;
+}
+.body ul li {
+	background:#99874d;
+	width: 15%;
+	border:5px solid #006600;
+	margin:1%;
+	border-radius:25px;
+	padding:2%;
+}
+/* set another color when mouse is hovered over any list of toy images in secondary page */
+.body ul li:hover {
+	background:#c0b283;
+}
+
+
+/*CSS for Individual toys description page*/
+/* size of container of text and image for content page */
+.picinfo{	
+	width:100%;
+	background:#e5dfcc;
+}
+/*spacing the whole article for each product in content page */
+.picinfo article{
+	margin:1%;
+	padding:1rem;
+}
+.picinfo h3 {
+	text-align:center; /* css sets text alignment */
+}
+.picinfo p{
+	text-align:justify; /* css for paragraph in content page */
+}
+/* sets space for product name in secondary page */
+.imgtxt{
+	padding:5%;
+	text-align:center;
+	color:#fff;
+	background:#665a33;
+}
+/* sets size for product image in secondary page */
+.toyinfo{
+	height: 18%;
+	width: 19%;
+	margin: auto;
+
+}
+/* sets image size of product in secondary page */
+.toyinfo img{
+	display: block;
+	width: 100%;
+	height: 50%;
+	border: 5px solid #006600 ;
+	border-radius: 25px;
+	
+}	
+.contentspace{
+	min-height:672px;
+}
+/* set paragraph format, text margin and alignment for description text.  */
+article{
+	text-align:center;
+}
+article p{
+	text-align:center;
+}
+/* remove list bullet in secondary page*/
+ul{
+	list-style: none; 
+}
+
+/* clear and fix spacing*/
+.clearfix{
+	clear:both;
+}
+
+
+/*CSS for Business hour page*/
+/* set table size and space in business hour page */
+.openhours table{
+    min-width: 40%;
+	height: auto;
+	margin:0 auto;
+	border-collapse: collapse;
+}
+/*set business hour title alignment in business hour page */
+.openhours p{
+	text-align:center;
+	
+}
+/*set standard and header cell of table in business hour page */
+td, th{
+    border: 2px solid #666666;
+    padding: 8px;
+	text-align: Center;
+    
+}
+td:hover{
+	color:white;
+	background-color: green;
+}
+/* set nth child selector and matches every element that is nth child for setting color of cell and text in table */
+tr:nth-child(even){
+    background-color: #d6d6c2;
+	color: #000000;
+}
+
+
+/*CSS for about us page*/
+/* set background color, margin and padding of text in about us page*/
+.aboutus{	
+	background-color: #c0b283;
+	padding: 20px;
+}
+
+/*CSS for footer*/
+/* footer for short page */
+.subfooter{
+	background-color: #c0b283;
+	color: #262626;
+	margin-top: 50px;
+	position:relative;
+	bottom:0;
+	padding:2px;
+	left: 0px;
+	right: 0px;
+	height:100px;
+}
+/*footer for lengthy page*/
+.mainfooter{
+	position:relative;
+	left: 0px;
+	right: 0px;
+	height:100px;
+	bottom:0;
+	padding:2px;
+	background-color: #c0b283;
+	color: #262626;
+}
+
+/*Back button*/
+input[type=button] {
+	border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	color: white;
+	background-color: #1C500A;
+    padding: 12px 20px;
+	margin-left: 60px;
+}
+input[type=button]:hover {
+    background-color: #3E6F2D;
+}
+
+
+/* CSSfor contact us page page: text, submit and checkbox */
+ input[type=text], select, textarea {
+            
+    width: 50%;
+    border: 1px solid #1C500A;
+    border-radius: 4px;
+	padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+	box-sizing: border-box;
+    resize: vertical;
+}
+/*send button*/
+input[type=submit] {
+	border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	color: white;
+	background-color: #1C500A;
+    padding: 12px 20px;
+}
+input[type=submit]:hover {
+    background-color: #3E6F2D;
+}
+/*checkbox*/	
+.checkboxalign {
+	white-space: nowrap;
+	display: inline;
+	padding: 10px;
+}
+/*form text style*/
+.forcontactus {
+    font: Arial;
+    font-size: 14px;
+	font-weight: bold;
+}
+		
+p {
+	text-align: center;
+	font-size: 18px;
+}
+ 
+
+ 
+/* CSS for Navigation bar */ 
+.changednav,
+[id^=menuextend] {
+	display: none;
+}
+
+/* CSS for Navigation background color*/
+nav {
+	background-color: #c0b283;
+	padding: 0;
+	margin:0;		
+}
+/* Color for Changed navigation bar while hovering */
+nav a:hover{
+	color:#ffffff;
+	background:#736A4E;
+}
+
+/* clear for ul li */
+
+nav:after {
+	clear:both;
+	content:"";
+	display:table;
+}
+
+/* Eliminate margin, padding and list style from ul */
+nav ul {
+	position: relative;
+	float: left;
+	list-style: none;
+	padding:0;
+	margin:0;
+	}
+	
+/* showing navigation items inline */
+nav ul li {
+	background-color: #c0b283;
+	margin: 0px;
+	float: left;
+	display:inline-block;
+	}
+
+/* CSS for navigation links */
+nav a {
+	padding:14px 20px;
+	font-size:16px;
+	text-decoration:none;
+	color:#006600;
+	display:block;
+}
+
+
+/* Navigation bar Media Query */
+
+@media all and (max-width : 500px){
+
+
+	nav {
+		margin: 0;
+	}
+
+	/* CSS for hiding small navigation bar by default */
+	.changednav + a,
+	.menu {
+		display: none;
+	}
+
+	/* Small navigation bar CSS styles */
+	.changednav {
+		color:#006600;
+		background-color: #c0b283;
+		padding:14px 20px;	
+		border:none;
+		font-size:17px;
+		text-decoration:none;
+		display: block;
+	}
+	/* CSS for small navigation hover */
+	.changednav:hover {
+		background-color: #c0b283;
+	}
+
+	/* CSS for small navigation label click */
+	[id^=menuextend]:checked + ul {
+		display: block;
+	}
+
+	/* small navigation width */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	/* small navigation hover CSS */
+	nav a:hover,
+ 	nav ul ul ul a {
+	background-color:#736A4E;
+	color:#ffffff;
+	}
+}
+/*media query for product list name text responsinveness*/
+@media only screen and (max-width: 600px){
+	body{
+		font-size: 0.6em;
+	}
+}
