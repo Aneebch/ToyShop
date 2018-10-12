@@ -15,7 +15,6 @@ p{
 	text-align: justify;
 }
 
-
 /*CSS for Company Logo */
 /* align company logo at the center in top section*/
 .companylogo {
@@ -35,7 +34,6 @@ p{
 	margin-bottom:100px;
 }
 
-
 /* formats the font and set the body background color */
 body {
 	background:#f4f4f4;
@@ -51,10 +49,12 @@ body {
 .body {
 	text-align:center;
 }
+
 /* for list view of toys in secondary page.  */
 .body ul {
 	list-style:none;
 }
+
 .body ul li {
 	background:#99874d;
 	width: 15%;
@@ -63,11 +63,11 @@ body {
 	border-radius:25px;
 	padding:2%;
 }
+
 /* set another color when mouse is hovered over any list of toy images in secondary page */
 .body ul li:hover {
 	background:#c0b283;
 }
-
 
 /*CSS for Individual toys description page*/
 /* size of container of text and image for content page */
@@ -75,17 +75,21 @@ body {
 	width:100%;
 	background:#e5dfcc;
 }
+
 /*spacing the whole article for each product in content page */
 .picinfo article{
 	margin:1%;
 	padding:1rem;
 }
+
 .picinfo h3 {
 	text-align:center; /* css sets text alignment */
 }
+
 .picinfo p{
 	text-align:justify; /* css for paragraph in content page */
 }
+
 /* sets space for product name in secondary page */
 .imgtxt{
 	padding:5%;
@@ -93,13 +97,14 @@ body {
 	color:#fff;
 	background:#665a33;
 }
+
 /* sets size for product image in secondary page */
 .toyinfo{
 	height: 18%;
 	width: 19%;
 	margin: auto;
-
 }
+
 /* sets image size of product in secondary page */
 .toyinfo img{
 	display: block;
@@ -107,18 +112,21 @@ body {
 	height: 50%;
 	border: 5px solid #006600 ;
 	border-radius: 25px;
-	
-}	
+}
+
 .contentspace{
 	min-height:672px;
 }
+
 /* set paragraph format, text margin and alignment for description text.  */
 article{
 	text-align:center;
 }
+
 article p{
 	text-align:center;
 }
+
 /* remove list bullet in secondary page*/
 ul{
 	list-style: none; 
@@ -129,7 +137,6 @@ ul{
 	clear:both;
 }
 
-
 /*CSS for Business hour page*/
 /* set table size and space in business hour page */
 .openhours table{
@@ -138,28 +145,29 @@ ul{
 	margin:0 auto;
 	border-collapse: collapse;
 }
+
 /*set business hour title alignment in business hour page */
 .openhours p{
 	text-align:center;
-	
 }
+
 /*set standard and header cell of table in business hour page */
 td, th{
     border: 2px solid #666666;
     padding: 8px;
 	text-align: Center;
-    
 }
+
 td:hover{
 	color:white;
 	background-color: green;
 }
+
 /* set nth child selector and matches every element that is nth child for setting color of cell and text in table */
 tr:nth-child(even){
     background-color: #d6d6c2;
 	color: #000000;
 }
-
 
 /*CSS for about us page*/
 /* set background color, margin and padding of text in about us page*/
@@ -181,6 +189,7 @@ tr:nth-child(even){
 	right: 0px;
 	height:100px;
 }
+
 /*footer for lengthy page*/
 .mainfooter{
 	position:relative;
@@ -203,10 +212,10 @@ input[type=button] {
     padding: 12px 20px;
 	margin-left: 60px;
 }
+
 input[type=button]:hover {
     background-color: #3E6F2D;
 }
-
 
 /* CSSfor contact us page page: text, submit and checkbox */
  input[type=text], select, textarea {
@@ -220,6 +229,7 @@ input[type=button]:hover {
 	box-sizing: border-box;
     resize: vertical;
 }
+
 /*send button*/
 input[type=submit] {
 	border: none;
@@ -229,28 +239,29 @@ input[type=submit] {
 	background-color: #1C500A;
     padding: 12px 20px;
 }
+
 input[type=submit]:hover {
     background-color: #3E6F2D;
 }
+
 /*checkbox*/	
 .checkboxalign {
 	white-space: nowrap;
 	display: inline;
 	padding: 10px;
 }
+
 /*form text style*/
 .forcontactus {
     font: Arial;
     font-size: 14px;
 	font-weight: bold;
 }
-		
+
 p {
 	text-align: center;
 	font-size: 18px;
 }
- 
-
  
 /* CSS for Navigation bar */ 
 .changednav,
@@ -264,6 +275,7 @@ nav {
 	padding: 0;
 	margin:0;		
 }
+
 /* Color for Changed navigation bar while hovering */
 nav a:hover{
 	color:#ffffff;
@@ -271,7 +283,6 @@ nav a:hover{
 }
 
 /* clear for ul li */
-
 nav:after {
 	clear:both;
 	content:"";
@@ -285,7 +296,7 @@ nav ul {
 	list-style: none;
 	padding:0;
 	margin:0;
-	}
+}
 	
 /* showing navigation items inline */
 nav ul li {
@@ -293,7 +304,7 @@ nav ul li {
 	margin: 0px;
 	float: left;
 	display:inline-block;
-	}
+}
 
 /* CSS for navigation links */
 nav a {
@@ -306,9 +317,7 @@ nav a {
 
 
 /* Navigation bar Media Query */
-
 @media all and (max-width : 500px){
-
 
 	nav {
 		margin: 0;
@@ -330,6 +339,7 @@ nav a {
 		text-decoration:none;
 		display: block;
 	}
+
 	/* CSS for small navigation hover */
 	.changednav:hover {
 		background-color: #c0b283;
@@ -344,7 +354,7 @@ nav a {
 	nav ul li {
 		display: block;
 		width: 100%;
-		}
+	}
 
 	/* small navigation hover CSS */
 	nav a:hover,
@@ -353,6 +363,7 @@ nav a {
 	color:#ffffff;
 	}
 }
+
 /*media query for product list name text responsinveness*/
 @media only screen and (max-width: 600px){
 	body{
